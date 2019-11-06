@@ -51,7 +51,7 @@ def fechades():
     i=0
     id=0
     for date in fechas:
-        id=fecha.find(date)
+        id=fechas.find(date)
         if f==date:
             num=fechas.find(date)
             i+=1
